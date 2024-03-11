@@ -27,13 +27,13 @@ export function Orders() {
                 <TableHead className="w-[132px]"></TableHead>
               </TableRow>
             </TableHeader>
-            
+
             <TableBody>
               {Array.from({ length: 10 }).map((_, i) => {
                 return (
-                <OrderTableRow key={i} />
-               )
-             })}
+                  <OrderTableRow key={i} />
+                )
+              })}
             </TableBody>
           </Table>
         </div>
